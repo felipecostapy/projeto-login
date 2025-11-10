@@ -11,24 +11,23 @@ verde: #62a87c
      padding: 0px;
      margin: 0px;
      box-sizing: border-box;
+     
  }
 
- body, html {
-     background: url(../imagens/9147451.jpg) ;
-     background-size: cover;
-     
-     
-
-
+ body, html { 
+     background-image: #2e1266;
      height: 100vh;
      width: 100vw;
  }
+
+ body {
+          background-image: linear-gradient(to bottom, #2e1266, #7d84b2);
+}
 
  main {
      position: relative;
      height: 100vh;
-     width: 100vw;
-     
+     width: 100vw; 
  }
 
  section#login {
@@ -36,22 +35,33 @@ verde: #62a87c
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
+     overflow: hidden;
 
 
-     background-color: #5565cc;
+     background-color: white;
      width: 250px;
      height: 500px;
      border-radius: 20px;
-     opacity: 60%;
-     box-shadow: 0px 0px 10px rgb(0, 0, 0);
+     opacity: 95%;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
      
-     
-
+     transition: width 0.3s, height 0.3s;
+     transition-timing-function: ease;
+          
      
  }
 
- section#login > div#formulario{
+ section#login > div#imagem {
+     display: block;
+     background: url(../imagens/9147451.jpg);
+     height: 200px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: left top;
+ }
+
+ section#login > div#formulario {
      padding: 10px;
-     text-align: center;
-     text
+     display: block;
+
  }
