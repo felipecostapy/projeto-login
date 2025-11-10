@@ -30,7 +30,7 @@
      }
 
       section#login {
-          width: 990px;
+          width: 950px;
 
      }
 
@@ -42,7 +42,7 @@
 
      section#login > div#formulario {
           float: right;
-          width: 100%;
+          width: 50%;
      }
      
 }

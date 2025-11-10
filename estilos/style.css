@@ -15,15 +15,10 @@ verde: #62a87c
  }
 
  body, html { 
-     background-image: #2e1266;
+     background-image: linear-gradient(to bottom, #2e1266, #7d84b2);
      height: 100vh;
      width: 100vw;
-     background-size: cover;
  }
-
- body {
-          background-image: linear-gradient(to bottom, #2e1266, #7d84b2);
-}
 
  main {
      position: relative;
@@ -53,7 +48,7 @@ verde: #62a87c
 
  section#login > div#imagem {
      display: block;
-     background: url(../imagens/9147451.jpg);
+     background: #2e1266 url(../imagens/9147451.jpg);
      height: 200px;
      background-size: cover;
      background-repeat: no-repeat;
