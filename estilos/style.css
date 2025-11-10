@@ -29,17 +29,15 @@ verde: #62a87c
  section#login {
      position: absolute;
      top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
+     left: 50%;  
      overflow: hidden;
-
-
      background-color: white;
      width: 250px;
-     height: 500px;
+     height: 530px;
      border-radius: 20px;
      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
-     
+
+     transform: translate(-50%, -50%);
      transition: width 0.3s, height 0.3s;
      transition-timing-function: ease;
           
@@ -69,3 +67,93 @@ verde: #62a87c
  div#formulario > p {
      font-size: 0.8em;
  }
+
+form > div.campo {
+     background-color: #7d84b2;
+     border: 2px solid #7d84b2;;
+     width: 100%;
+     display: block;
+     height: 40px;
+     border-radius: 8px;
+     margin: 5px 0px;
+
+}
+
+form label {
+     display: none;
+}
+
+div.campo > span {
+     color: white;
+     font-size: 2em;
+     width: 40px;
+     padding: 5px;
+
+}
+
+div.campo > input {
+     background-color: #7d84b2;
+     font-size: 1em;
+     width: calc(100% - 45px);
+     height: 100%;
+     border: 0px;
+     border-radius: 8px;
+     padding: 4px;
+     transform: translateY(-13px);
+}
+
+div.campo > input:focus-within {
+     background-color: white;
+}
+
+ form > input[type=submit]{
+     display: block;
+     font-size: 1em;
+     width: 100%;
+     height: 40px;
+     background-color: #6faa85;
+     color: white;
+     border: none;
+     border-radius: 5px;
+
+ }
+
+ form > input[type=submit]:hover{
+     background-color: rgb(34, 136, 136);
+     cursor: pointer;
+
+ }
+
+ form > a.botao {
+     display: block;
+     text-align: center;
+     padding-top: 5px;
+     margin-top: 7px;
+     width: 100%;
+     height: 40px;
+     font-size: 1em;
+     background-color: white;
+     border: 1px solid #62a87c;
+     border-radius: 5px;
+     text-decoration: none;
+     color: rgb(12, 36, 36);
+
+ }
+
+ input::placeholder{
+     color: white;
+ }
+
+ form > a.botao:hover {
+     background-color: rgb(34, 136, 136);
+ }
+
+ form > a.botao > span {
+     font-size: 0.8em;
+ }
+
+ input {
+     width: 60%;
+ }
+
+ 
