@@ -18,6 +18,7 @@ verde: #62a87c
      background-image: #2e1266;
      height: 100vh;
      width: 100vw;
+     background-size: cover;
  }
 
  body {
@@ -42,7 +43,6 @@ verde: #62a87c
      width: 250px;
      height: 500px;
      border-radius: 20px;
-     opacity: 95%;
      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
      
      transition: width 0.3s, height 0.3s;
